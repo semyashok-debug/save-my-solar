@@ -5,7 +5,7 @@ import "./App.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1 className="logo">Save My Idiot</h1>
+      <h1 className="logo">Save My Solar</h1>
       <div className="nav-links">
         <Link to="/">Home</Link>
         <Link to="/products">Products</Link>
