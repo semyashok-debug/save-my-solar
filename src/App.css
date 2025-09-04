@@ -18,6 +18,7 @@ overflow-y: scroll; /* Prevents layout shift when switching pages */
 }
 
 .navbar {
+  position: relative;
   min-height:60px;
   display: flex;
   align-items: centre;
@@ -27,6 +28,7 @@ overflow-y: scroll; /* Prevents layout shift when switching pages */
 }
 
 .nav-links {
+position:absolute;
 white-space: nowrap; /* Prevent wrapping of nav links */
 }
 
