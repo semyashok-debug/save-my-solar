@@ -18,12 +18,14 @@ overflow-y: scroll; /* Prevents layout shift when switching pages */
 }
 
 .navbar {
-  width: 100%;
-  min-height:80px;
+  min-height:60px;
   display: flex;
-  grid-template-columns: auto 1fr; /* logo | links */
-  align-items: right;
+  align-items: centre;
   background-color: #5f6a2d;
+  padding-top: 50px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 80px;
   color: white;
 }
 
