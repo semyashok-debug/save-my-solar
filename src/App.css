@@ -12,8 +12,8 @@ overflow-y: scroll; /* Prevents layout shift when switching pages */
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  /*flex-direction: column;*/
   min-height: 100vh;
 }
 
@@ -23,7 +23,7 @@ overflow-y: scroll; /* Prevents layout shift when switching pages */
   align-items: centre;
   background-color: #5f6a2d;
   padding-top: 50px;
-  padding-right: 0px;
+  padding-right: 100px;
   padding-bottom: 50px;
   padding-left: 80px;
   color: white;
