@@ -13,14 +13,14 @@ overflow-y: scroll; /* Prevents layout shift when switching pages */
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   min-height: 100vh;
 }
 
 .navbar {
-  position: relative;
+  position: absolute;
   min-height:60px;
-  display: flex;
+  /*display: flex;*/
   align-items: centre;
   background-color: #5f6a2d;
   padding: 1rem 2rem;
