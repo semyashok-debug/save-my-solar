@@ -22,9 +22,8 @@ overflow-y: scroll; /* Prevents layout shift when switching pages */
   min-height:80px;
   display: flex;
   grid-template-columns: auto 1fr; /* logo | links */
-  align-items: center;
+  align-items: right;
   background-color: #5f6a2d;
-  padding: 1rem 2rem;
   color: white;
 }
 
