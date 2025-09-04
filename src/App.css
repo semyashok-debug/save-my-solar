@@ -20,10 +20,10 @@ overflow-y: scroll; /* Prevents layout shift when switching pages */
 .navbar {
   width: 100%;
   min-height:80px;
-  display: grid;
+  display: flex;
   grid-template-columns: auto 1fr; /* logo | links */
   align-items: center;
-  background-color: #2d6a4f;
+  background-color: #5f6a2d;
   padding: 1rem 2rem;
   color: white;
 }
