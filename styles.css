@@ -1,0 +1,14 @@
+/* Custom Styles */
+body {
+  scroll-behavior: smooth;
+  padding-top: 80px;
+}
+
+/* Hide default scrollbar for gallery */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

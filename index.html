@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+.p1 {
+	font-family: 'Lucida Handwriting', cursive;
+}
+.p2 {
+	font-family: 'Algerian', cursive;
+}
+
+</style>
+<body class="font-sans text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-[#292554] text-white px-8 py-8 flex justify-between items-centre fixed w-full top-0 left-0">
+    <h1 class="text-4xl font-extrabold">
+		<a href="index.html">
+			<span class="text-green-500 p2">SAVE MY</span> <span class="text-yellow-300 p1">SOLAR</span>
+		</a>
+	</h1>
+    <ul class="flex space-x-6">
+      <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
+      <li><a href="about.html" class="hover:text-gray-400">About Us</a></li>
+      <li><a href="products.html" class="hover:text-gray-400">Products</a></li>
+      <li><a href="case-studies.html" class="hover:text-gray-400">Case Studies</a></li>
+      <li><a href="contacts.html" class="hover:text-gray-400">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="px-8 py-16 space-y-16">
+    <!-- Section 1: Hero -->
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <img src="https://via.placeholder.com/500x300" alt="Hero" class="rounded-xl shadow-md">
+      <div>
+        <h2 class="text-3xl font-bold mb-4">Welcome to Our Website</h2>
+        <p class="text-lg">We provide the best products and services tailored to your needs. Explore our range of solutions and see how we can help you succeed.</p>
+      </div>
+    </div>
+
+    <!-- Section 2: Scrollable Gallery -->
+    <div>
+      <h2 class="text-2xl font-semibold mb-4">Gallery</h2>
+      <div class="flex space-x-4 overflow-x-auto scrollbar-hide">
+        <img src="https://via.placeholder.com/200x150" class="rounded-xl shadow-md" alt="Gallery 1">
+        <img src="https://via.placeholder.com/200x150" class="rounded-xl shadow-md" alt="Gallery 2">
+        <img src="https://via.placeholder.com/200x150" class="rounded-xl shadow-md" alt="Gallery 3">
+        <img src="https://via.placeholder.com/200x150" class="rounded-xl shadow-md" alt="Gallery 4">
+        <img src="https://via.placeholder.com/200x150" class="rounded-xl shadow-md" alt="Gallery 5">
+      </div>
+    </div>
+
+    <!-- Section 3: New Arrivals -->
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-2xl font-bold mb-4">New Arrivals</h2>
+        <p class="text-lg mb-4">Check out our latest products designed with innovation and quality in mind. Don’t miss out on the newest additions to our collection.</p>
+        <a href="products.html" class="inline-block bg-gray-900 text-white px-6 py-2 rounded-lg hover:bg-gray-700">View Products</a>
+      </div>
+      <img src="https://via.placeholder.com/500x300" alt="New Arrival" class="rounded-xl shadow-md">
+    </div>
+  </section>
+
+</body>
+</html>
