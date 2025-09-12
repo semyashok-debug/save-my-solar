@@ -12,21 +12,26 @@
 .p1 {
 	font-family: 'Lucida Handwriting', cursive;
 }
-.p2 {
-	font-family: 'Algerian', cursive;
+body{
+	background-color:#292554;
 }
+.content-container {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 10px;
+        }
 </style>
 
-<body class="font-sans text-gray-800">
-  <!-- Navbar -->
-   <nav class="bg-[#292554] text-white px-8 py-5 flex justify-between items-centre fixed w-full top-0 left-0">
+<nav class="bg-[#2f2a87] text-white px-8 py-4 flex justify-between items-center fixed w-full top-0 left-0 shadow-md">
+	<div class="flex items-center space-x-3">
+		<img src="Images/logo3.png" alt="Logo" class="w-20 h-21 shadow-2xl" style="border-radius:50%;">
     <h1 class="text-4xl font-extrabold">
-		<a href="index.html">
-			<span class="text-green-500 p2">SAVE MY</span> <span class="text-yellow-300 p1">SOLAR</span>
-		</a>
+		<a href="index.html" class = "text-[#F9C642] p1">SAVE MY SOLAR</a>
 	</h1>
-    <ul class="justify-end flex space-x-6 text-xl font-semibold">
-      <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
+	</div>
+	<ul class="justify-end flex space-x-6 text-xl font-semibold">
+      <li><a href="index.html" class="hover:text-gray-400 text-l">Home</a></li>
       <li><a href="about.html" class="hover:text-gray-400">About Us</a></li>
       <li><a href="products.html" class="hover:text-gray-400">Products</a></li>
       <li><a href="case-studies.html" class="hover:text-gray-400">Case Studies</a></li>
@@ -34,34 +39,34 @@
     </ul>
   </nav>
   
-<section id="contacts" class="px-8 py-24 max-w-3xl mx-auto">
-    <h2 class="text-blue-800 text-3xl font-bold mb-8 text-center">CONTACT FORM</h2>
-    <form name="contact" method="POST" data-netlify="true" class="bg-white shadow-lg rounded-lg p-8 space-y-6">
+<section id="contacts" class="px-8 py-10 max-w-3xl mx-auto">
+    <h2 class="text-[#F9C642] text-3xl font-bold mb-8 text-center">CONTACT FORM</h2>
+    <form name="contact" method="POST" data-netlify="true" class="bg-[#282474] shadow-lg rounded-lg p-8 space-y-6">
       <input type="hidden" name="form-name" value="contact">
       <!-- Name -->
       <div>
-        <label for="name" class="block text-blue-800 font-medium mb-2">Name</label>
+        <label for="name" class="block text-[#F9C642] font-medium mb-2">Name</label>
         <input type="text" name="name" id="name" placeholder="Your Name" required
                class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
       </div>
 
       <!-- Email -->
       <div>
-        <label for="email" class="block text-blue-800 font-medium mb-2">Email</label>
+        <label for="email" class="block text-[#F9C642] font-medium mb-2">Email</label>
         <input type="email" name="email" id="email" placeholder="Your Email" required
                class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
       </div>
 
       <!-- Phone -->
       <div>
-        <label for="phone" class="block text-blue-800 font-medium mb-2">Phone</label>
+        <label for="phone" class="block text-[#F9C642] font-medium mb-2">Phone</label>
         <input type="tel" name="phone" id="phone" placeholder="Your Phone Number"
                class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500">
       </div>
 
       <!-- Message -->
       <div>
-        <label for="message" class="block text-blue-800 font-medium mb-2">Message</label>
+        <label for="message" class="block text-[#F9C642] font-medium mb-2">Message</label>
         <textarea name="message" id="message" rows="5" placeholder="Your Message" required
                   class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
       </div>
@@ -69,14 +74,21 @@
       <!-- Submit -->
       <div class="text-center">
         <button type="submit" 
-                class="bg-[#292554] text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
+                class="bg-[#292554] text-[#F9C642] px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors">
           Send Message
         </button>
       </div>
 
     </form>
   </section>
-
-
+ 
+<div class="content-container">
+	<h2 class="text-[#F9C642] text-2xl font-bold mb-3"><u>AUS Sales and Technical Support</u></h2>
+			<p class="text-xl text-white py-2">
+			<b>Email:</b> savemysolar@outlook.com<br>
+			<b>Phone:</b> 0480 003 637 <br>
+			<b>Address:</b> K6 High St, Windsor VIC 3181 </p>
+		</div>
+	<p class="bg-white text-gray-500 shadow-md px-2 py-2">Copyright © 2025 | Save My Solar</p>
 </body>
 </html>
