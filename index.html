@@ -10,25 +10,25 @@
 
 <style>
 .p1 {
-	font-family: 'Lucida Handwriting', cursive;
+  font-family: 'Lucida Handwriting', cursive;
 }
 
-body{
-	background-color:#292554;
+body {
+  background-color:#292554;
 }
 </style>
 
 <body class="font-sans text-gray-800">
   <!-- Navbar -->
-  <nav class="bg-[#2f2a87] text-white px-8 py-4 flex justify-between items-center fixed w-full top-0 left-0 shadow-md">
-	<div class="flex items-center space-x-3">
-		<img src="Images/logo3.png" alt="Logo" class="w-20 h-21 shadow-2xl" style="border-radius:50%;">
-    <h1 class="text-4xl font-extrabold">
-		<a href="index.html" class = "text-[#F9C642] p1">SAVE MY SOLAR</a>
-	</h1>
-	</div>
-	<ul class="justify-end flex space-x-6 text-xl font-semibold">
-      <li><a href="index.html" class="hover:text-gray-400 text-l">Home</a></li>
+  <nav class="bg-[#2f2a87] text-white px-4 md:px-8 py-4 flex justify-between items-center fixed w-full top-0 left-0 shadow-md z-50">
+    <div class="flex items-center space-x-3">
+      <img src="Images/logo3.png" alt="Logo" class="w-14 h-14 md:w-20 md:h-21 shadow-2xl rounded-full">
+      <h1 class="text-2xl md:text-4xl font-extrabold">
+        <a href="index.html" class="text-[#F9C642] p1">SAVE MY SOLAR</a>
+      </h1>
+    </div>
+    <ul class="hidden md:flex justify-end space-x-6 text-base md:text-xl font-semibold">
+      <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
       <li><a href="about.html" class="hover:text-gray-400">About Us</a></li>
       <li><a href="products.html" class="hover:text-gray-400">Products</a></li>
       <li><a href="case-studies.html" class="hover:text-gray-400">Case Studies</a></li>
@@ -36,58 +36,18 @@ body{
     </ul>
   </nav>
   
-  <section id="home" class="px-8 py-16 space-y-16">
+  <section id="home" class="px-4 md:px-8 pt-28 pb-16 space-y-16">
     <!-- Section 1: Hero -->
     <div class="gap-8">
-      <img src="Images/12.png" alt="Hero" class="rounded-xl shadow-md" style="display:block; margin-left:auto;margin-right:auto;">
+      <img src="Images/12.png" alt="Hero" class="rounded-xl shadow-md mx-auto w-full max-w-4xl">
       <div>
-        <h2 class="text-3xl text-[#F9C642] text-center font-bold mb-4"><br>Power Your Home with Smarter Energy</h2>
-        <p class="text-lg text-white text-justify">Switching to solar and battery storage isn’t just about going green — it’s about taking control of your energy bills and securing long-term savings. By generating your own electricity and storing excess power for when you 
-		need it most, you can protect yourself from rising energy costs while enjoying reliable, clean power every day. <br><br>Our expert team is here to make the process simple and stress-free. With years of hands-on experience, we provide free in-house 
-		consultations where we carefully assess your property, energy usage, and future needs. This allows us to design the right solution for you — one that maximizes efficiency, reduces your reliance on the grid, and delivers real, measurable savings.
-		We understand that every home and business is unique. That’s why we offer a wide range of solar panels, inverters, and battery systems from trusted global brands. Whether you want the latest battery storage technology, premium solar panels, or a 
-		cost-effective system to cut your bills, we have options to suit every lifestyle and budget. <br><br>Our promise is competitive pricing without compromising on quality. We’re committed to giving you the best value, pairing top-performing products with 
-		expert installation and long-term support. From start to finish, our team will be there — offering honest advice, transparent pricing, and professional service you can rely on. When you choose our team, you’re not just installing 
-		solar panels or a battery system — you’re investing in a smarter way to power your home or business. With the right system, you’ll enjoy lower energy bills, more independence from the grid, and the satisfaction of contributing to a cleaner, 
-		more sustainable future. <br><br>Now is the time to make the switch. With the right technology, expert guidance, and a team dedicated to your success, energy savings have never been easier..</p>
-      </div>
-    </div>
-
-    <!-- Section 2: Scrollable Gallery -->
-    <div>
-      <h2 class="text-3xl text-[#F9C642] text-center font-bold mb-4">Install Gallery</h2>
-      <div class="flex space-x-2 overflow-x-auto">
-        <img src="Images/g1.jpg" class="rounded-xl shadow-lg" alt="Gallery 1" style="padding:4px; width:300px">
-        <img src="Images/g2.jpg" class="rounded-xl shadow-lg" alt="Gallery 2" style="padding:4px; width:300px">
-        <img src="Images/g3.jpg" class="rounded-xl shadow-lg" alt="Gallery 3" style="padding:4px; width:400px">
-        <img src="Images/g4.jpg" class="rounded-xl shadow-lg" alt="Gallery 4" style="padding:4px; width:350px">
-        <img src="Images/g5.jpg" class="rounded-xl shadow-lg" alt="Gallery 5" style="padding:4px; width:400px">
-		<img src="Images/g6.jpg" class="rounded-xl shadow-lg" alt="Gallery 6" style="padding:4px; width:300px">
-		<img src="Images/g7.jpg" class="rounded-xl shadow-lg" alt="Gallery 7" style="padding:4px; width:400px">
-        <img src="Images/g8.jpg" class="rounded-xl shadow-lg" alt="Gallery 8" style="padding:4px; width:350px">
-      </div>
-    </div>
-	
-	<div class="grid grid-cols-2 px-20 py-6">
-		<div> <img src="Images/chat.png" class="bg-blue-100 rounded-xl shadow-lg" alt="chat" style="width:600px"> </div>
-		<div>
-			<h2 class="text-2xl text-[#F9C642] items-center font-bold">We come to you — real people, real plans, real savings.</h2>
-			<p class="text-white text-justify">We don’t believe in one-size-fits-all. Our team takes the time to meet you in person, 
-				understand your energy goals, and design a solar and battery system that truly fits your home or business. With expert advice and 
-				tailored solutions, we make going solar simple, personal, and rewarding.</p>
-		</div>
-	</div>
-	
-    <!-- Section 3: Google Reviews -->
-    <div class="text-center gap-8 items-center">
-      <div>
-		<!-- Elfsight Google Reviews | Untitled Google Reviews -->
-		<script src="https://elfsightcdn.com/platform.js" async></script>
-		<div class="elfsight-app-e0521be7-527b-4448-8556-3c68d34ddb82" data-elfsight-app-lazy></div>
-    </div>
-  </section>
-  
-  <p class="bg-white text-gray-500 shadow-md px-2 py-2">Copyright © 2025 | Save My Solar</p>
-
-</body>
-</html>
+        <h2 class="text-2xl md:text-3xl text-[#F9C642] text-center font-bold mb-4"><br>Power Your Home with Smarter Energy</h2>
+        <p class="text-base md:text-lg text-white text-justify leading-relaxed">
+          Switching to solar and battery storage isn’t just about going green — it’s about taking control of your energy bills and securing long-term savings. 
+          By generating your own electricity and storing excess power for when you need it most, you can protect yourself from rising energy costs while enjoying reliable, clean power every day.
+          <br><br>
+          Our expert team is here to make the process simple and stress-free. With years of hands-on experience, we provide free in-house consultations where we carefully assess your property, energy usage, and future needs. This allows us to design the right solution for you — one that maximizes efficiency, reduces your reliance on the grid, and delivers real, measurable savings.
+          <br><br>
+          We understand that every home and business is unique. That’s why we offer a wide range of solar panels, inverters, and battery systems from trusted global brands. Whether you want the latest battery storage technology, premium solar panels, or a cost-effective system to cut your bills, we have options to suit every lifestyle and budget.
+          <br><br>
+          Our promise is competitive pricing without compromising on quality. We’re committed to giving you the best value, pairing top-performing products with expert installation and long-term support. From st
