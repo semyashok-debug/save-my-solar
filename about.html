@@ -10,22 +10,24 @@
 
 <style>
 .p1 {
-	font-family: 'Lucida Handwriting', cursive;
+  font-family: 'Lucida Handwriting', cursive;
 }
-body{
-	background-color:#292554;
+body {
+  background-color:#292554;
 }
 </style>
 
-<nav class="bg-[#2f2a87] text-white px-8 py-4 flex justify-between items-center fixed w-full top-0 left-0 shadow-md">
-	<div class="flex items-center space-x-3">
-		<img src="Images/logo3.png" alt="Logo" class="w-20 h-21 shadow-2xl" style="border-radius:50%;">
-    <h1 class="text-4xl font-extrabold">
-		<a href="index.html" class = "text-[#F9C642] p1">SAVE MY SOLAR</a>
-	</h1>
-	</div>
-	<ul class="justify-end flex space-x-6 text-xl font-semibold">
-      <li><a href="index.html" class="hover:text-gray-400 text-l">Home</a></li>
+<body class="font-sans text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-[#2f2a87] text-white px-4 md:px-8 py-4 flex justify-between items-center fixed w-full top-0 left-0 shadow-md z-50">
+    <div class="flex items-center space-x-3">
+      <img src="Images/logo3.png" alt="Logo" class="w-14 h-14 md:w-20 md:h-21 shadow-2xl rounded-full">
+      <h1 class="text-2xl md:text-4xl font-extrabold">
+        <a href="index.html" class="text-[#F9C642] p1">SAVE MY SOLAR</a>
+      </h1>
+    </div>
+    <ul class="hidden md:flex justify-end space-x-6 text-base md:text-xl font-semibold">
+      <li><a href="index.html" class="hover:text-gray-400">Home</a></li>
       <li><a href="about.html" class="hover:text-gray-400">About Us</a></li>
       <li><a href="products.html" class="hover:text-gray-400">Products</a></li>
       <li><a href="case-studies.html" class="hover:text-gray-400">Case Studies</a></li>
@@ -33,43 +35,52 @@ body{
     </ul>
   </nav>
 
-  <section id="about" class="px-8 py-16 text-white">
-    <h2 class="text-[#F9C642] text-3xl font-bold mb-4 text-center">WHAT WE DO</h2>
-    <p class="text-l font-sans text-justify">
-		At Save My Solar, we provide end-to-end solar and battery storage solutions designed to help Australians take control of their energy. 
-		With over 7 years of experience in the renewable energy sector, we’ve built a reputation for delivering reliable systems and excellent customer service.
-		We start by understanding your energy needs and goals, then design a tailored solar and battery solution that maximizes efficiency and savings. 
-		Our team manages everything — from consultation, system design, approvals, and installation, through to after-sales support and monitoring.<br>
-		<br>Whether it’s reducing your electricity bills, protecting against rising energy costs, or ensuring you have backup power during outages, 
-		we make the process simple, transparent, and stress-free. By partnering with trusted manufacturers, we provide high-quality solar panels, inverters, 
-		and battery storage systems that deliver performance you can rely on for years to come.	At Save My Solar, we don’t just install systems — 
-		we help you achieve true energy independence and make a positive impact on the environment!<br><br></p>
-	</p>
-	
-	<h2 class="text-[#F9C642] text-3xl font-bold mb-4 text-center">OUR VISION</h2>
-    <p class="text-l font-sans text-justify">
-		Our vision is to lead the transition to a cleaner, greener Australia powered by renewable energy.
-		We believe every home and business should have the opportunity to harness the power of the sun, reduce reliance on fossil fuels, 
-		and enjoy the benefits of sustainable living. We see a future where solar energy is not just an alternative, 
-		but the primary source of energy for Australians — affordable, reliable, and accessible to all. 
-		By continuously embracing new technologies and best practices, we strive to set the standard for innovation, efficiency,
-		and environmental responsibility in the solar industry.<br><br></p>
-	</p>
-	
-	<h2 class="text-[#F9C642] text-3xl font-bold mb-4 text-center">OUR MISSION</h2>
-    <p class="text-l font-sans text-justify">
-		Our mission is to make renewable energy simple, affordable, and accessible for everyone. We are dedicated to providing high-quality solar and 
-		battery solutions that deliver measurable savings and long-term value for our customers. Through honest advice, transparent pricing, 
-		and professional service, we aim to build trust and lasting relationships with every client. 
-		Our team is committed to helping families and businesses achieve greater energy independence while contributing to a cleaner, more sustainable future.
-		We believe that every installation is more than just a project — it’s a step towards reducing carbon emissions 
-		and creating a better world for the next generation.<br><br><br></p>
-	</p>
-	
-	<p class="text-red-500 text-xl font-bold mb-4 text-center">******Call us or fill-out the contact form to book a free consultation 
-	with one of our experts******</p>
-	
+  <!-- About Content -->
+  <section id="about" class="px-4 md:px-8 pt-28 pb-16 text-white space-y-12">
+    <div>
+      <h2 class="text-[#F9C642] text-2xl md:text-3xl font-bold mb-4 text-center">WHAT WE DO</h2>
+      <p class="text-base md:text-lg font-sans text-justify leading-relaxed">
+        At Save My Solar, we provide end-to-end solar and battery storage solutions designed to help Australians take control of their energy. 
+        With years of experience in the renewable energy sector, we’ve built a reputation for delivering reliable systems and excellent customer service.
+        We start by understanding your energy needs and goals, then design a tailored solar and battery solution that maximizes efficiency and savings. 
+        Our team manages everything — from consultation, system design, approvals, and installation, through to after-sales support and monitoring.
+        <br><br>
+        Whether it’s reducing your electricity bills, protecting against rising energy costs, or ensuring you have backup power during outages, 
+        we make the process simple, transparent, and stress-free. By partnering with trusted manufacturers, we provide high-quality solar panels, inverters, 
+        and battery storage systems that deliver performance you can rely on for years to come. At Save My Solar, we don’t just install systems — 
+        we help you achieve true energy independence and make a positive impact on the environment!
+      </p>
+    </div>
+
+    <div>
+      <h2 class="text-[#F9C642] text-2xl md:text-3xl font-bold mb-4 text-center">OUR VISION</h2>
+      <p class="text-base md:text-lg font-sans text-justify leading-relaxed">
+        Our vision is to lead the transition to a cleaner, greener Australia powered by renewable energy.
+        We believe every home and business should have the opportunity to harness the power of the sun, reduce reliance on fossil fuels, 
+        and enjoy the benefits of sustainable living. We see a future where solar energy is not just an alternative, 
+        but the primary source of energy for Australians — affordable, reliable, and accessible to all. 
+        By continuously embracing new technologies and best practices, we strive to set the standard for innovation, efficiency,
+        and environmental responsibility in the solar industry.
+      </p>
+    </div>
+
+    <div>
+      <h2 class="text-[#F9C642] text-2xl md:text-3xl font-bold mb-4 text-center">OUR MISSION</h2>
+      <p class="text-base md:text-lg font-sans text-justify leading-relaxed">
+        Our mission is to make renewable energy simple, affordable, and accessible for everyone. We are dedicated to providing high-quality solar and 
+        battery solutions that deliver measurable savings and long-term value for our customers. Through honest advice, transparent pricing, 
+        and professional service, we aim to build trust and lasting relationships with every client. 
+        Our team is committed to helping families and businesses achieve greater energy independence while contributing to a cleaner, more sustainable future.
+        We believe that every installation is more than just a project — it’s a step towards reducing carbon emissions 
+        and creating a better world for the next generation.
+      </p>
+    </div>
+
+    <p class="text-red-500 text-lg md:text-xl font-bold text-center">
+      ****** Call us or fill out the contact form to book a free consultation with one of our experts ******
+    </p>
   </section>
-	<p class="bg-white text-gray-500 shadow-md px-2 py-2">Copyright © 2025 | Save My Solar</p>
+
+  <p class="bg-white text-gray-500 shadow-md text-center px-2 py-2 text-sm md:text-base">Copyright © 2025 | Save My Solar</p>
 </body>
 </html>
