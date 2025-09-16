@@ -10,92 +10,128 @@
 
 <style>
 .p1 {
-	font-family: 'Lucida Handwriting', cursive;
+  font-family: 'Lucida Handwriting', cursive;
 }
-body{
-	background-color:#292554;
+body {
+  background-color:#292554;
 }
 </style>
 
-<nav class="bg-[#2f2a87] text-white px-8 py-4 flex justify-between items-center fixed w-full top-0 left-0 shadow-md">
-	<div class="flex items-center space-x-3">
-		<img src="Images/logo3.png" alt="Logo" class="w-20 h-21 shadow-2xl" style="border-radius:50%;">
-    <h1 class="text-4xl font-extrabold">
-		<a href="index.html" class = "text-[#F9C642] p1">SAVE MY SOLAR</a>
-	</h1>
-	</div>
-	<ul class="justify-end flex space-x-6 text-xl font-semibold">
-      <li><a href="index.html" class="hover:text-gray-400 text-l">Home</a></li>
-      <li><a href="about.html" class="hover:text-gray-400">About Us</a></li>
-      <li><a href="products.html" class="hover:text-gray-400">Products</a></li>
-      <li><a href="case-studies.html" class="hover:text-gray-400">Case Studies</a></li>
-      <li><a href="contacts.html" class="hover:text-gray-400">Contact Us</a></li>
+<body class="font-sans text-gray-800">
+  <!-- Navbar -->
+  <nav class="bg-[#2f2a87] text-white px-4 md:px-8 py-4 flex justify-between items-center fixed w-full top-0 left-0 shadow-md z-50">
+    <div class="flex items-center space-x-3">
+      <img src="Images/logo3.png" alt="Logo" class="w-14 h-14 md:w-20 md:h-21 shadow-2xl rounded-full">
+      <h1 class="text-2xl md:text-4xl font-extrabold">
+        <a href="index.html" class="text-[#F9C642] p1">SAVE MY SOLAR</a>
+      </h1>
+    </div>
+
+    <!-- Hamburger Button -->
+    <button id="menu-btn" class="md:hidden focus:outline-none">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+
+    <!-- Nav Links -->
+    <ul id="menu" class="hidden md:flex flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-[#2f2a87] md:bg-transparent text-center md:text-left space-y-4 md:space-y-0 md:space-x-6 text-lg font-semibold p-4 md:p-0">
+      <li><a href="index.html" class="hover:text-gray-400 block">Home</a></li>
+      <li><a href="about.html" class="hover:text-gray-400 block">About Us</a></li>
+      <li><a href="products.html" class="hover:text-gray-400 block">Products</a></li>
+      <li><a href="case-studies.html" class="hover:text-gray-400 block">Case Studies</a></li>
+      <li><a href="contacts.html" class="hover:text-gray-400 block">Contact Us</a></li>
     </ul>
   </nav>
 
-  <section id="case-studies" class="px-8 py-16 text-white">
+  <!-- Case Studies Content -->
+  <section id="case-studies" class="px-4 md:px-8 pt-28 pb-16 text-white">
     <h2 class="text-[#F9C642] text-3xl font-bold mb-4">Case Study: Marco's Solar Battery Solution</h2>
-	<p class="text-l font-sans text-justify"><b>[Client]:</b> Marco<br>
-		<b>[Product Installed]:</b> Alpha Smile G3-S5 with 30kWh Storage<br><br>
-	</p>
-	<h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Background</h3>
+    <p class="text-l font-sans text-justify"><b>[Client]:</b> Marco<br>
+      <b>[Product Installed]:</b> Alpha Smile G3-S5 with 30kWh Storage<br><br>
+    </p>
+
+    <h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Background</h3>
     <p class="text-l font-sans text-justify">
-	Marco was looking for the best solution for solar battery storage. With rising electricity costs and the need 
-	for reliable energy independence, he wanted a system that was both cost-effective and high-performing.<br><br></p>
-	<h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Consultation Process</h3>
+      Marco was looking for the best solution for solar battery storage. With rising electricity costs and the need 
+      for reliable energy independence, he wanted a system that was both cost-effective and high-performing.<br><br>
+    </p>
+
+    <h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Consultation Process</h3>
     <div class="text-l font-sans text-justify">
-		<p>	Marco reached out to Save My Solar for advice. We provided him with an obligation-free consultation, where our team visited his home and:</p>
-		<ul class="px-8 py-2" style="list-style-type:disc">
-		<li>Inspected his existing solar system to check compatibility.</li>
-		<li>Reviewed his switchboard and electrical setup to ensure safety and compliance.</li>
-		<li>Discussed his energy usage patterns and budget to recommend the most suitable solution.</li>
-		</ul>
-		<p>This entire assessment was carried out free of charge, ensuring Marco could make an informed decision without any upfront costs.<br><br></p>
-	</div>
-	<h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Outcome</h3>
-	<p class="text-l font-sans text-justify">
-	After considering all options, Marco chose the Alpha Smile G3-S5. He was confident it was the best value solution that met both his energy needs and 
-	financial expectations.<br></p>
-	<p class="py-2">Marco can now:<br></p>
-	</p>
-	<ul class="px-8 py-2" style="list-style-type:disc">
-		<li>Store excess solar energy during the day.</li>
-		<li>Reduce his reliance on the grid and lower energy bills.</li>
-		<li>Enjoy backup power during blackouts, giving him peace of mind.</li>
-		</ul>
-		<hr style="background-color:#F9C642; margin: 20px 0; height:2px">
-	
-	<h2 class="text-[#F9C642] text-3xl font-bold mb-4">Case Study: George’s Solar Battery Solution</h2>
-	<p class="text-l font-sans text-justify"><b>[Client]:</b> George<br>
-		<b>[Product Installed]:</b> Alpha Smile G3-S5 with 30kWh Storage<br><br>
-	</p>
-	<h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Background</h3>
+      <p>Marco reached out to Save My Solar for advice. We provided him with an obligation-free consultation, where our team visited his home and:</p>
+      <ul class="px-8 py-2 list-disc">
+        <li>Inspected his existing solar system to check compatibility.</li>
+        <li>Reviewed his switchboard and electrical setup to ensure safety and compliance.</li>
+        <li>Discussed his energy usage patterns and budget to recommend the most suitable solution.</li>
+      </ul>
+      <p>This entire assessment was carried out free of charge, ensuring Marco could make an informed decision without any upfront costs.<br><br></p>
+    </div>
+
+    <h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Outcome</h3>
     <p class="text-l font-sans text-justify">
-	George wanted a reliable and affordable solar battery system to get the most out of his existing solar panels. 
-	He was particularly interested in finding a product that would lower his energy bills while also providing backup power for his household.<br><br></p>
-	<h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Consultation Process</h3>
+      After considering all options, Marco chose the Alpha Smile G3-S5. He was confident it was the best value solution that met both his energy needs and 
+      financial expectations.<br>
+    </p>
+    <p class="py-2">Marco can now:</p>
+    <ul class="px-8 py-2 list-disc">
+      <li>Store excess solar energy during the day.</li>
+      <li>Reduce his reliance on the grid and lower energy bills.</li>
+      <li>Enjoy backup power during blackouts, giving him peace of mind.</li>
+    </ul>
+
+    <hr class="bg-[#F9C642] my-8 h-1 border-0">
+
+    <!-- George -->
+    <h2 class="text-[#F9C642] text-3xl font-bold mb-4">Case Study: George’s Solar Battery Solution</h2>
+    <p class="text-l font-sans text-justify"><b>[Client]:</b> George<br>
+      <b>[Product Installed]:</b> Alpha Smile G3-S5 with 30kWh Storage<br><br>
+    </p>
+
+    <h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Background</h3>
+    <p class="text-l font-sans text-justify">
+      George wanted a reliable and affordable solar battery system to get the most out of his existing solar panels. 
+      He was particularly interested in finding a product that would lower his energy bills while also providing backup power for his household.<br><br>
+    </p>
+
+    <h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Consultation Process</h3>
     <div class="text-l font-sans text-justify">
-		<p>	George contacted Save My Solar to explore his options. Our team provided an obligation-free home visit, during which we:</p>
-		<ul class="px-8 py-2" style="list-style-type:disc">
-		<li>Inspected his solar panels and inverter for compatibility.</li>
-		<li>Checked his switchboard and household wiring to ensure everything was up to standard.</li>
-		<li>Discussed his household energy habits and future needs to shape a tailored recommendation.</li>
-		</ul>
-		<p>This thorough assessment came at no cost to George, allowing him to understand his options without financial pressure.<br><br></p>
-	</div>
-	<h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Outcome</h3>
-	<p class="text-l font-sans text-justify">
-	After reviewing the options, George chose the Alpha Smile G3-S5. He felt it offered the best overall value while giving him confidence 
-	that his household energy needs would be met well into the future.<br></p>
-	<p class="py-2">Now, George enjoys:<br></p>
-	</p>
-	<ul class="px-8 py-2" style="list-style-type:disc">
-		<li>Greater independence from the grid.</li>
-		<li>Reduced power bills through smart solar energy storage.</li>
-		<li>Peace of mind knowing his home has reliable backup power.</li>
-		</ul>
-		<hr style="background-color:#F9C642; margin: 20px 0; height:2px">
+      <p>George contacted Save My Solar to explore his options. Our team provided an obligation-free home visit, during which we:</p>
+      <ul class="px-8 py-2 list-disc">
+        <li>Inspected his solar panels and inverter for compatibility.</li>
+        <li>Checked his switchboard and household wiring to ensure everything was up to standard.</li>
+        <li>Discussed his household energy habits and future needs to shape a tailored recommendation.</li>
+      </ul>
+      <p>This thorough assessment came at no cost to George, allowing him to understand his options without financial pressure.<br><br></p>
+    </div>
+
+    <h3 class="text-[#F9C642] text-3xl font-semibold mb-4">Outcome</h3>
+    <p class="text-l font-sans text-justify">
+      After reviewing the options, George chose the Alpha Smile G3-S5. He felt it offered the best overall value while giving him confidence 
+      that his household energy needs would be met well into the future.<br>
+    </p>
+    <p class="py-2">Now, George enjoys:</p>
+    <ul class="px-8 py-2 list-disc">
+      <li>Greater independence from the grid.</li>
+      <li>Reduced power bills through smart solar energy storage.</li>
+      <li>Peace of mind knowing his home has reliable backup power.</li>
+    </ul>
+
+    <hr class="bg-[#F9C642] my-8 h-1 border-0">
   </section>
-	<p class="bg-white text-gray-500 shadow-md px-2 py-2">Copyright © 2025 | Save My Solar</p>
+
+  <p class="bg-white text-gray-500 shadow-md text-center px-2 py-2 text-sm md:text-base">
+    Copyright © 2025 | Save My Solar
+  </p>
+
+  <!-- Script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('menu');
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
 </body>
 </html>
